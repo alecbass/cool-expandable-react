@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       cool-expandable:
-        specifier: ../cool-expandable
-        version: link:../cool-expandable
+        specifier: git@github.com:alecbass/cool-expandable.git
+        version: https://codeload.github.com/alecbass/cool-expandable/tar.gz/e621c7d618adbb1ae24e248acf7f5aa811ba15a1
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -48,9 +48,6 @@ importers:
       typescript-eslint:
         specifier: ^8.24.1
         version: 8.25.0(eslint@9.21.0)(typescript@5.7.3)
-      vite:
-        specifier: ^6.2.0
-        version: 6.2.0
 
 packages:
 
@@ -606,6 +603,10 @@ packages:
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
+
+  cool-expandable@https://codeload.github.com/alecbass/cool-expandable/tar.gz/e621c7d618adbb1ae24e248acf7f5aa811ba15a1:
+    resolution: {tarball: https://codeload.github.com/alecbass/cool-expandable/tar.gz/e621c7d618adbb1ae24e248acf7f5aa811ba15a1}
+    version: 1.0.0
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -1576,6 +1577,8 @@ snapshots:
   concat-map@0.0.1: {}
 
   convert-source-map@2.0.0: {}
+
+  cool-expandable@https://codeload.github.com/alecbass/cool-expandable/tar.gz/e621c7d618adbb1ae24e248acf7f5aa811ba15a1: {}
 
   cross-spawn@7.0.6:
     dependencies:
