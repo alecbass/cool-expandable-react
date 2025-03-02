@@ -2,7 +2,7 @@
   "name": "cool-expandable-react",
   "author": "Alec Bassingthwaighte",
   "description": "A React adoption of the cool-expandable web component library",
-  "private": true,
+  "private": false,
   "version": "0.1.0",
   "type": "module",
   "main": "dist/index.js",
